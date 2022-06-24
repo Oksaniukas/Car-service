@@ -1,0 +1,28 @@
+$primarycolor: #000000; 
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+main,
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  color: $primarycolor;
+}
+
+
+.container {
+  margin: 0 auto;
+  max-width: 1150px;
+  display: flex;
+}

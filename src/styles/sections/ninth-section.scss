@@ -1,0 +1,184 @@
+.ninth-section {
+    padding-top: 100px;
+    background: #F0F2F4;
+    .container {
+        flex-direction: column;
+        h4 {
+            font-weight: 500;
+            font-size: 46px;
+            line-height: 56px;
+            text-align: center;
+            text-transform: capitalize;
+            margin-bottom: 100px;
+        }
+        .ninth-section-card-block {
+            display: flex;
+            margin-bottom: 79px;
+        }
+        .ninth-section-card-list {
+            display: grid;
+            grid-gap: 20px;
+            grid-template-columns: repeat(2,1fr);
+            margin-right: 20px;
+            
+            .ninth-section-card {
+                padding: 40px 0 0 30px;
+                background: #FFFFFF;
+                width: 270px;
+                .ninth-section-card-number {
+                    font-weight: 400;
+                    font-size: 81.5484px;
+                    line-height: 66px;
+                    color: #E5E5E5;
+                    margin-bottom: 60px;
+                }
+                .ninth-section-card-text {
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 30px;
+                    margin-bottom: 80px;
+                    max-width: 230px;
+                }
+            }
+        }
+        .ninth-section-card-list-right-side {
+            padding: 120px 39px 0 39px; 
+            background: #FFFFFF;
+            h2 {
+                font-weight: 700;
+                font-size: 46px;
+                line-height: 56px;
+                text-align: center;
+                text-transform: capitalize;
+                margin-bottom: 18px;
+            }
+            .ninth-section-card-list-right-side-text {
+                font-weight: 400;
+                font-size: 36px;
+                line-height: 44px;
+                text-align: center;
+                text-transform: capitalize;
+                margin-bottom: 60px;
+            }
+            .ninth-section-card-list-right-side-button1 {
+                background: #F5F5F5;
+                border: 1.6px solid #000000;
+                border-radius: 9px;
+                height: 114px;
+                margin-bottom: 44px;
+            }
+            .ninth-section-card-list-right-side-button2 {
+                background: #F5F5F5;
+                border: 2px solid #E9E743;
+                border-radius: 9px;
+                padding: 36px 0 36px 0px;
+                display: flex;
+                margin-bottom: 120px;
+                justify-content: center;
+                .ninth-section-card-list-right-side-button2-text {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 36px;
+                    line-height: 42px;
+                    text-align: center;
+                    text-transform: capitalize;
+                    margin-right: 18px;
+                }
+            }
+        }
+        button.back-to-top {
+            margin-bottom: 78px;
+            background: #E5E5E5;
+            border: 1px solid rgba(0, 0, 0, 0.4);
+            border-radius: 16.2791px;
+            padding: 24px 38px;
+            width: 225px;
+            align-self: center;
+            .back-to-top-text {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 25.8854px;
+                line-height: 21px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    .ninth-section-card-block {
+        flex-direction: column;
+        .ninth-section-card-list {
+            align-self: center;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+.ninth-section .container .ninth-section-card-list .ninth-section-card.ninth-section-card {
+        width: 230px;
+        .ninth-section-card-text{
+            margin-bottom: 30px;
+        }
+        .ninth-section-card-number {
+            font-size: 60px;
+            line-height: 30px;
+        }
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 550px) {
+    .ninth-section {
+        padding-top: 60px;
+        .container {
+            padding: 0 20px;
+            h4 {
+                font-size: 40px;
+                line-height: 50px;
+                margin-bottom: 60px;
+            }
+            .ninth-section-card-block {
+                margin-bottom: 40px;
+                .ninth-section-card-list {
+                    grid-template-columns: repeat(1, 1fr);
+                    margin-right: unset;
+                    .ninth-section-card {
+                        width: 230px;
+                    }
+                }
+                .ninth-section-card-list-right-side {
+                    padding: 20px 10px 0 10px;
+                    h2 {
+                        font-size: 40px;
+                        line-height: 50px;
+                    }
+                    .ninth-section-card-list-right-side-text {
+                        font-size: 30px;
+                        line-height: 40px;
+                        margin-bottom: 30px;
+                    }
+                    .ninth-section-card-list-right-side-button1 {
+                        height: 80px;
+                    }
+                    .ninth-section-card-list-right-side-button2 {
+                        margin-bottom: 60px;
+                        padding: 20px 0;
+                        .ninth-section-card-list-right-side-button2-text {
+                            font-size: 30px;
+                            line-height: 35px;
+                        }
+                        img {
+                            width: 15%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+    

@@ -1,0 +1,81 @@
+
+ .second-section {
+    padding-top: 96px;
+    .container {
+        justify-content: center;
+        flex-wrap: wrap; 
+        .second-section-image {            
+            margin-bottom: 55px;
+            img {
+                max-width: 100%;
+            }
+        }
+        .second-section-text-list h3{
+            font-weight: 600;
+            font-size: 66px;
+            line-height: 80px;
+            text-align: center;
+            text-transform: capitalize;
+            margin-bottom: 60px;
+        }
+        .second-section-button-block {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 72px;
+            .second-section-button {
+                padding: 14px 32.5px;
+                background:  #F5F5F5;
+                border: 2px solid #E9E743;
+                border-radius: 33px;
+                &-text {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 28px;
+                    text-align: center;
+                    text-transform: capitalize;
+                    
+                }
+            }
+        }
+
+    }
+}
+
+@media (max-width: 720px) {
+    .second-section {
+        padding-top: 40px;
+        .container {
+            padding: 0 30px;
+            .second-section-text-list h3 {
+                font-size: 50px;
+                line-height: 60px;
+                margin-bottom: 30px;
+            }
+            .second-section-button-block {
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width:480px) {
+    .second-section .container .second-section-text-list h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }    
+    .second-section-image {
+        visibility: hidden;
+        height: 0px;
+    }
+    .second-section .container .second-section-image {
+        margin-bottom: unset;
+    }
+    .second-section .container .second-section-button-block .second-section-button {
+        width: 100%;
+    }
+
+}
+
+

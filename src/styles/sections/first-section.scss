@@ -1,0 +1,71 @@
+.first-section {
+    background: #E9E743;
+    padding: 18px 0;
+    .container {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .first-section-button {
+            padding: 14px 32.5px;
+            background: #FFFFFF;
+            border: 1px solid #000000;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 33px;
+            &-text {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 23px;
+                text-align: center;
+                text-transform: capitalize;
+            }
+        }     
+        .contact-us {
+            display: flex;
+            align-items: center;
+            .whatsapp-image {
+                width: 42px;
+                height: 42px;
+                margin-right: 56px;
+                    img {
+                        width: 100%;
+                    }
+                }            
+            .phone-icon {
+                background-color: black;
+                width: 42px;
+                height: 42px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                    i {
+                        color: white;
+                        font-size: 20px;
+                    }
+            }
+        }
+    }
+}
+
+@media (max-width: 720px) {
+    .first-section .container {
+        padding: 0 30px;
+        .contact-us .whatsapp-image  {
+            margin-right: 30px;
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width:480px) {
+    .first-section .container {
+        align-items: center;
+        justify-content: center;
+        .first-section-button {
+            margin-bottom: 20px;
+            width: 100%;
+        }
+    }
+
+}
+
