@@ -1,10 +1,7 @@
 .third-section {
     background: #F4F4F4;
-    padding-top: 70px;
-    .container {
-        flex-direction: column;
-
-        .third-section-text {
+    padding: 70px 0 125px 0;
+    .container .third-section-content-block .third-section-text {
             font-weight: 500;
             font-size: 46px;
             line-height: 56px;
@@ -12,43 +9,42 @@
             text-transform: capitalize;
             margin-bottom: 76px;
         }
-        .third-section-card-list {
-            display: grid;
-            grid-template-columns: repeat(6,160px);
-            grid-gap: 20px;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            margin-bottom: 126px;
-            
-            .third-section-card {
-                max-height: 100px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
+    .third-section-card-list {
+        display: grid;
+        grid-template-columns: repeat(6,160px);
+        grid-gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;            
+    .third-section-card {
+        max-height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         }
     }
-
 }
 
     @media (max-width: 1200px) {
-        .third-section .container .third-section-card-list {
+        .third-section-content-block {
+            padding: 0 30px;
+        }
+        .third-section .container .third-section-content-block .third-section-card-list {
             grid-template-columns: repeat(5,160px);
             grid-template-rows: auto;
         }
     }
 
     @media (max-width: 980px) {
-        .third-section .container .third-section-card-list {
+        .third-section .container .third-section-content-block .third-section-card-list {
             grid-template-columns: repeat(4,160px);
         }
     }
 
     @media (max-width: 720px) {
-        .container {
+        .container .third-section-content-block {
             padding: 0 30px;
         }
-        .third-section .container .third-section-card-list {
+        .third-section .container .third-section-content-block .third-section-card-list {
             grid-template-columns: repeat(3,160px);
         }
     }
@@ -56,14 +52,13 @@
     @media (max-width: 600px) {
         .third-section {
             padding-top: 40px;            
-            .container .third-section-card-list {
+            .container .third-section-content-block .third-section-card-list {
                 justify-content: center;
-                margin-bottom: 50px;
                 img {
                     height: 80px;
                 }
             }
-            .container .third-section-text {
+            .container .third-section-content-block .third-section-text {
                 margin-bottom: 40px;
                 font-size: 30px;
                 line-height: 40px;
@@ -71,13 +66,16 @@
         }
     }
     @media (min-width: 320px) and (max-width: 480px) {
-        .third-section .container .third-section-card-list {
+        .third-section {
+            padding: 70px 0;
+        }
+        .third-section .container .third-section-content-block .third-section-card-list {
             grid-template-columns: repeat(2,100px);
         }
-        .third-section .container .third-section-text {
+        .third-section .container .third-section-content-block .third-section-text {
             margin-bottom: 20px;
         }
-        .third-section .container .third-section-card-list img {
+        .third-section .container .third-section-content-block .third-section-card-list img {
             height: 60px;
         }
     }

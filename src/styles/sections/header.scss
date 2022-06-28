@@ -1,27 +1,24 @@
 header {
-    padding: 52px 0 23px 0;
-    .container {
+    padding: 52px 0px 23px 0px;
+    .header-content-block {
+        display: flex;
         justify-content: space-between;
         align-items: center;
-        
         .logo img {
             height: 65px;
             width: 366px;
         }
-       
         .nav {
             display: flex;
             align-items: center;
             .bars {
                 visibility: hidden;
-            }
-        
+            }       
             
             ul.navigation-list {
                 display: flex;
                 justify-content: space-between;
                 list-style-type: none;
-                margin-bottom: unset;
                 & li {
                     margin-right: 50px;
                     font-weight: 400;
@@ -29,11 +26,11 @@ header {
                     line-height: 23px;
                 }
             }    
-            .login {
+            .login-button {
                 padding: 18px 42px;
                 border: 1px solid #000000;
                 background: #FFFFFF;
-                &-text {
+                .login-text {
                     font-family: 'Roboto';
                     font-style: normal;
                     font-weight: 400;
@@ -48,19 +45,16 @@ header {
 }
 
 @media (max-width: 1200px) {
-    
-    .container {
-        padding: 0 50px;
+    header {
+        padding: 52px 50px 23px 50px;
     }
 }
 
 @media (max-width: 980px) {
-    
     .navigation-list {
         visibility: hidden;
         width: 0%;
-    }
-    
+    }    
     header .container .nav {
         justify-content: flex-end;
         width: 250px;
@@ -79,15 +73,15 @@ header {
 
 @media (max-width: 720px) {
     header {
-        padding: 20px 0 10px 0;
-        header .container {
+        padding: 20px 0 20px 0;
+        .header-content-block {
             flex-wrap: wrap;
             .logo {
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 flex: 1;
-                margin-bottom: 10px;
+                margin-bottom: 20px;
             }
             .nav {
                 justify-content: center;
@@ -95,23 +89,15 @@ header {
             }
         }
     }
-
 }
 
-
 @media (min-width: 320px) and (max-width:480px) {
-    header {
-     padding: 20px 0 10px 0;
-        .container {
-            padding: unset;
-            .logo img {
-                width: 280px;
-                height: unset;
-            }
-            .nav button.login {
-                padding: 6px 30px;
-            }
-        }
+    .container .header-content-block .logo img {
+        width: 280px;
+        height: unset;
+    }
+    .container .header-content-block .nav .login-button {
+        padding: 6px 30px;
     }
 }
 

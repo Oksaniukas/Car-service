@@ -1,7 +1,10 @@
 .sixth-section {
-    padding-top: 170px;
-    .container {
+    padding: 170px 30px 140px 30px;
+    .container .sixth-section-content-block {
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         h4 {
             font-weight: 500;
             font-size: 46px;
@@ -11,13 +14,12 @@
             margin-bottom: 88px;
         }
         .sixth-section-card-list {
-            margin-bottom: 139px;
             display: grid;
             grid-gap: 25px;
-            grid-template-columns: repeat(auto-fill, minmax(268px, 1fr));
+            grid-template-columns: repeat(4, 268px);
             .sixth-section-card {
                 border: 1px solid rgba(33, 53, 70, 0.4);
-                padding: 50px 0 0 30px;
+                padding: 50px 30px 39px 30px;
                 .sixth-section-card-image-block {
                     display: flex;
                     height: 120px;
@@ -29,7 +31,6 @@
                         line-height: 26px;
                         text-align: center;
                         color: #E5E5E5;
-                        margin-right: 30px;
                     }
                 }
                 .sixth-section-card-text {
@@ -43,7 +44,6 @@
                 }
                 .sixth-section-button {
                     padding: 10px 40px;
-                    margin-bottom: 39px;
                     background: #F5F5F5;
                     border: 2px solid #E9E743;
                     border-radius: 10px;
@@ -70,10 +70,18 @@
         }
     }
 }
+@media (max-width: 1200px) {
+    .sixth-section .container .sixth-section-content-block .sixth-section-card-list {
+        grid-template-columns: repeat(3, 268px);
+    }
+}
 
 @media (max-width: 980px) {
     .sixth-section {
         padding-top: 100px;
+    }
+    .sixth-section .container .sixth-section-content-block .sixth-section-card-list {
+        grid-template-columns: repeat(2, 268px);
     }
     
 }
@@ -81,17 +89,23 @@
 @media (max-width: 720px) {
     .sixth-section {
         padding-top: 50px;
-        .container h4 {
+        .container .sixth-section-content-block h4 {
             margin-bottom: 50px;
         }
-    }
-    
+    }    
 }
-@media (min-width: 320px) and (max-width: 480px) {
-    .sixth-section .container .sixth-section-card-list {
-        margin-bottom: 50px;
+
+@media (max-width: 600px) {
+    .sixth-section .container .sixth-section-content-block .sixth-section-card-list {
+        grid-template-columns: repeat(1, 268px);
     }
-    .sixth-section .container h4 {
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .sixth-section  {
+        padding-bottom: 50px;
+    }
+    .sixth-section .sixth-section-content-block .container h4 {
         font-size: 40px;
         line-height: 50px;
     }

@@ -1,5 +1,5 @@
 .eighth-section {
-    padding: 170px 50px 0 0;
+    padding: 170px 0px 0 0;
     h5 {
         font-weight: 500;
         font-size: 46px;
@@ -26,6 +26,7 @@
 
 .eighth-section-second-block-right-side {
     width: 50%;
+    padding-right: 50px;
 }
 
 .eighth-section-second-block-right-side-text {
@@ -134,4 +135,9 @@
     .eighth-section .eighth-section-second-block-right-side-card-text .text2  {
         font-size: 25px;
     }
+    .eighth-section .eighth-section-second-block-right-side {
+        padding-right: unset;
+        
+    }
+
 }

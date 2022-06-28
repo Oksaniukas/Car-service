@@ -1,7 +1,8 @@
 .first-section {
     background: #E9E743;
     padding: 18px 0;
-    .container {
+    .container .first-section-content-block {
+        display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         .first-section-button {
@@ -48,19 +49,23 @@
     }
 }
 
-@media (max-width: 720px) {
-    .first-section .container {
+@media (max-width: 1200px) {
+    .first-section-content-block {
         padding: 0 30px;
-        .contact-us .whatsapp-image  {
-            margin-right: 30px;
-        }
+    }
+}
+
+@media (max-width: 720px) {
+    .first-section .container .first-section-content-block .contact-us .whatsapp-image {
+        margin-right: 30px;
     }
 }
 
 @media (min-width: 320px) and (max-width:480px) {
-    .first-section .container {
+    .first-section .container .first-section-content-block {
         align-items: center;
         justify-content: center;
+
         .first-section-button {
             margin-bottom: 20px;
             width: 100%;
