@@ -47,6 +47,8 @@
                     background: #F5F5F5;
                     border: 2px solid #E9E743;
                     border-radius: 10px;
+                    cursor: pointer;
+                    transition: all 0.3s ease 0s;
                     &-text {
                         font-family: 'Roboto';
                         font-style: normal;
@@ -58,6 +60,9 @@
                         letter-spacing: 0.1em;
                         color: #1F1F1F;
                     }
+                }
+                .sixth-section-button:hover {
+                    background-color: #E9E743;
                 }
                 .sixth-section-card-image {
                     max-width: 130px;

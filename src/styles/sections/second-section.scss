@@ -25,6 +25,8 @@
                 background:  #F5F5F5;
                 border: 2px solid #E9E743;
                 border-radius: 33px;
+                cursor: pointer;
+                transition: all 0.3s ease 0s;
                 &-text {
                     font-family: 'Roboto';
                     font-style: normal;
@@ -35,6 +37,10 @@
                     text-transform: capitalize;
                     
                 }
+            }
+            .second-section-button:hover{
+                background-color:#E9E743;
+                border-color: black;
             }
         }
 

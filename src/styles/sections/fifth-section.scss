@@ -26,6 +26,7 @@
                 border: 1px solid rgba(170, 170, 170, 0.2);
                 height: 183px;
                 padding: 10px;
+                cursor: pointer;
                 .fifth-section-card-text {
                     font-family: 'Roboto';
                     font-style: normal;
@@ -35,6 +36,9 @@
                     text-align: center;
                     text-transform: uppercase;
                 }
+                .fifth-section-card-text:hover {
+                    text-decoration: underline;}
+
             }
         }
     }

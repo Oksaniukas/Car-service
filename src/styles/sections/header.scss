@@ -26,10 +26,15 @@ header {
                     line-height: 23px;
                 }
             }    
+            ul.navigation-list li:hover {
+                text-decoration: underline;
+            }
             .login-button {
                 padding: 18px 42px;
                 border: 1px solid #000000;
                 background: #FFFFFF;
+                cursor: pointer;
+                transition: all 0.3s ease 0s;
                 .login-text {
                     font-family: 'Roboto';
                     font-style: normal;
@@ -39,6 +44,9 @@ header {
                     text-align: center;
                     text-transform: uppercase;
                 }
+            }
+            .login-button:hover {
+                background-color: #E9E743;
             }
         }
     }

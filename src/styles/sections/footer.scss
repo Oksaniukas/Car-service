@@ -30,13 +30,14 @@ footer {
                 line-height: 40px;
                 text-transform: capitalize;
             }
-            .footer-left-side-text3-second {
+            .footer-left-side-text3-second_map {
                 font-family: 'Roboto';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 25px;
                 line-height: 35px;
                 text-transform: capitalize;
+                color: #FFFFFF;
             }
         }
         .footer-right-side {
@@ -62,6 +63,7 @@ footer {
                     align-items: center;
                     justify-content: center;
                     margin-right: 15px;
+                    cursor: pointer;
                     i {
                        color:  #1F1F1F;
                        font-size: 45px;
@@ -72,6 +74,19 @@ footer {
         }
 
     }
+}
+.footer-left-side-text3-second_map:hover {
+    text-decoration: underline;
+}
+.footer-right-side-contact_phone,
+.footer-right-side-contact_email {
+    color: #FFFFFF;
+}
+.footer-right-side-contact_phone:hover{
+    text-decoration: underline;
+}
+.footer-right-side-contact_email:hover{
+    text-decoration: underline;
 }
 
 @media (max-width: 1200px) {

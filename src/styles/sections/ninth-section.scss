@@ -74,6 +74,8 @@
                     padding: 36px 0 36px 0px;
                     display: flex;
                     justify-content: center;
+                    cursor: pointer;
+                    transition: all 0.3s ease 0s;
                     .ninth-section-card-button-block-button2-text {
                         font-family: 'Roboto';
                         font-style: normal;
@@ -85,6 +87,9 @@
                         margin-right: 18px;
                     }
                 }
+                .ninth-section-card-button-block-button2:hover {
+                    background-color: #E9E743;
+                }
             }
         }
         
@@ -95,6 +100,8 @@
             padding: 24px 38px;
             width: 225px;
             margin: 0 auto;
+            cursor: pointer;
+            transition: all 0.3s ease 0s;
             .back-to-top-text {
                 font-family: 'Roboto';
                 font-style: normal;
@@ -104,6 +111,10 @@
                 text-align: center;
             }
         }
+        .back-to-top:hover {
+            background-color: #E9E743;
+        }
+
     }
 }
 
