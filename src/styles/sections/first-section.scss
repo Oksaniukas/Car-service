@@ -1,10 +1,12 @@
 .first-section {
     background: #E9E743;
     padding: 18px 0;
+
     .container .first-section-content-block {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+
         .first-section-button {
             padding: 14px 32.5px;
             background: #FFFFFF;
@@ -13,6 +15,7 @@
             border-radius: 33px;
             transition: all 0.3s ease 0s;
             cursor: pointer;
+
             &-text {
                 font-family: 'Roboto';
                 font-style: normal;
@@ -23,21 +26,26 @@
                 text-transform: capitalize;
             }
         }
+
         .first-section-button:hover {
             background-color: #c6c336;
         }     
+
         .contact-us {
             display: flex;
             align-items: center;
+
             .whatsapp-image {
                 width: 42px;
                 height: 42px;
                 margin-right: 56px;
                 cursor: pointer;
-                    img {
-                        width: 100%;
-                    }
-                }            
+
+                img {
+                    width: 100%;
+                }
+            }   
+
             .phone-icon {
                 background-color: black;
                 width: 42px;
@@ -47,10 +55,11 @@
                 align-items: center;
                 justify-content: center;
                 cursor: pointer;
-                    i {
-                        color: white;
-                        font-size: 20px;
-                    }
+
+                i {
+                    color: white;
+                    font-size: 20px;
+                }
             }
         }
     }

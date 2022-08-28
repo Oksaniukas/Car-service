@@ -1,16 +1,20 @@
 header {
     padding: 52px 0px 23px 0px;
+
     .header-content-block {
         display: flex;
         justify-content: space-between;
         align-items: center;
+
         .logo img {
             height: 65px;
             width: 366px;
         }
+
         .nav {
             display: flex;
             align-items: center;
+
             .bars {
                 visibility: hidden;
             }       
@@ -19,22 +23,26 @@ header {
                 display: flex;
                 justify-content: space-between;
                 list-style-type: none;
+
                 & li {
                     margin-right: 50px;
                     font-weight: 400;
                     font-size: 19px;
                     line-height: 23px;
                 }
-            }    
+            } 
+
             ul.navigation-list li:hover {
                 text-decoration: underline;
             }
+
             .login-button {
                 padding: 18px 42px;
                 border: 1px solid #000000;
                 background: #FFFFFF;
                 cursor: pointer;
                 transition: all 0.3s ease 0s;
+
                 .login-text {
                     font-family: 'Roboto';
                     font-style: normal;
@@ -45,6 +53,7 @@ header {
                     text-transform: uppercase;
                 }
             }
+
             .login-button:hover {
                 background-color: #E9E743;
             }
@@ -63,16 +72,20 @@ header {
         visibility: hidden;
         width: 0%;
     }    
+
     header .container .nav {
         justify-content: flex-end;
         width: 250px;
+
         .bars {
-            visibility: visible;        
+            visibility: visible;   
+
             i {
                 font-size: 30px;
                 margin-right: 50px;
             }   
         }
+
         ul.navigation-list li {
             margin-right: unset;
         }
@@ -82,8 +95,10 @@ header {
 @media (max-width: 720px) {
     header {
         padding: 20px 0 20px 0;
+
         .header-content-block {
             flex-wrap: wrap;
+
             .logo {
                 display: flex;
                 align-items: center;
@@ -91,6 +106,7 @@ header {
                 flex: 1;
                 margin-bottom: 20px;
             }
+
             .nav {
                 justify-content: center;
                 width: 100%;
@@ -104,6 +120,7 @@ header {
         width: 280px;
         height: unset;
     }
+    
     .container .header-content-block .nav .login-button {
         padding: 6px 30px;
     }

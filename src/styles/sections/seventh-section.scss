@@ -1,8 +1,10 @@
 .seventh-section {
     padding: 164px 30px 155px 30px;
     background: #F0F2F4;
+
     .container .seventh-section-content-block {
-            h4 {
+
+        h4 {
             font-size: 46px;
             font-weight: 500;
             text-align: center;
@@ -10,22 +12,26 @@
             text-transform: capitalize;
             margin-bottom: 88px;
         }
+
         .seventh-section-card-list {
             display: grid;
             grid-gap: 20px;
             place-content: center;
             grid-template-columns: repeat(3,370px);
+
             .seventh-section-card .seventh-section-card-image-block {
                 background: #FFFFFF;
                 margin-bottom: 95px;
                 height: 256px;
                 position: relative;
+
                 img {
                     position: absolute;
                     top: 50px;
                     right: 30px;
                 }            
             }
+
             .seventh-section-card .seventh-section-card-text1 {
                 font-weight: 400;
                 font-size: 32px;
@@ -33,7 +39,8 @@
                 text-transform: capitalize;
                 margin-bottom: 11px;
                 margin-left: 20px;
-            }            
+            }     
+
             .seventh-section-card .seventh-section-card-text2 {
                 font-weight: 400;
                 font-size: 18px;
@@ -50,6 +57,7 @@
 @media (max-width: 1210px) {
     .seventh-section {
         padding: 100px 30px 100px 30px;
+
         .container .seventh-section-content-block .seventh-section-card-list {
             grid-template-columns: repeat(2,370px);
         }
@@ -59,9 +67,7 @@
         top: 50px;
         right: 30px;
     }
-
 }          
-
 
 @media (max-width: 780px) {
     .seventh-section .container .seventh-section-content-block .seventh-section-card-list {

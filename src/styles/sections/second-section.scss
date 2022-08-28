@@ -1,13 +1,16 @@
 
  .second-section {
     padding: 96px 0 55px 0;
+
     .second-section-content-block {
         display: flex;
         justify-content: center;
         flex-wrap: wrap; 
+
         .second-section-image img {
             max-width: 100%;
         }
+
         .second-section-text-list h3{
             font-weight: 600;
             font-size: 66px;
@@ -16,10 +19,12 @@
             text-transform: capitalize;
             margin-bottom: 60px;
         }
+
         .second-section-button-block {
             display: flex;
             justify-content: center;
             margin-bottom: 72px;
+
             .second-section-button {
                 padding: 14px 32.5px;
                 background:  #F5F5F5;
@@ -27,6 +32,7 @@
                 border-radius: 33px;
                 cursor: pointer;
                 transition: all 0.3s ease 0s;
+
                 &-text {
                     font-family: 'Roboto';
                     font-style: normal;
@@ -35,9 +41,9 @@
                     line-height: 28px;
                     text-align: center;
                     text-transform: capitalize;
-                    
                 }
             }
+
             .second-section-button:hover{
                 background-color:#E9E743;
                 border-color: black;
@@ -56,6 +62,7 @@
 @media (max-width: 720px) {
     .second-section {
         padding: 40px 0 30px 0;
+
         .container .second-section-content-block .second-section-text-list h3 {
             font-size: 50px;
             line-height: 60px;
@@ -69,10 +76,12 @@
         font-size: 30px;
         line-height: 40px;
     }    
+
     .second-section-image {
         visibility: hidden;
         height: 0px;
     }
+
     .second-section .container .second-section-content-block .second-section-button-block {
         margin-bottom: unset;
     }
@@ -80,7 +89,6 @@
     .second-section .container .second-section-content-block .second-section-button-block .second-section-button {
         width: 100%;
     }
-
 }
 
 

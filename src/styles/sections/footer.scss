@@ -2,11 +2,14 @@ footer {
     background: #1F1F1F;
     color: #FFFFFF;
     padding-top: 93px;
+
     .container .footer-content-block {
         display: flex;
+
         .footer-left-side {
             margin-right: 80px;
             margin-bottom: 100px;
+
             .footer-left-side-text1{
                 font-weight: 700;
                 font-size: 40px;
@@ -15,6 +18,7 @@ footer {
                 text-transform: capitalize;
                 margin-bottom: 40px;
             }
+
             .footer-left-side-text2 {
                 font-weight: 400;
                 font-size: 40px;
@@ -22,6 +26,7 @@ footer {
                 text-transform: capitalize;
                 margin-bottom: 40px;
             }
+
             .footer-left-side-text3-first {
                 font-family: 'Roboto';
                 font-style: normal;
@@ -30,6 +35,7 @@ footer {
                 line-height: 40px;
                 text-transform: capitalize;
             }
+
             .footer-left-side-text3-second_map {
                 font-family: 'Roboto';
                 font-style: normal;
@@ -43,6 +49,7 @@ footer {
         .footer-right-side {
             padding-top: 90px;
             max-width: 460px;
+
             .footer-right-side-contact {
                 font-family: 'Roboto';
                 font-style: normal;
@@ -52,8 +59,10 @@ footer {
                 text-transform: capitalize;
                 margin-bottom: 20px;
             }
+
             .footer-right-side-social-links {
                 display: flex;
+
                 .footer-right-side-social-links-card {
                     background: #C4C4C4;
                     width: 75px;
@@ -64,6 +73,7 @@ footer {
                     justify-content: center;
                     margin-right: 15px;
                     cursor: pointer;
+
                     i {
                        color:  #1F1F1F;
                        font-size: 45px;
@@ -75,16 +85,20 @@ footer {
 
     }
 }
+
 .footer-left-side-text3-second_map:hover {
     text-decoration: underline;
 }
+
 .footer-right-side-contact_phone,
 .footer-right-side-contact_email {
     color: #FFFFFF;
 }
+
 .footer-right-side-contact_phone:hover{
     text-decoration: underline;
 }
+
 .footer-right-side-contact_email:hover{
     text-decoration: underline;
 }
@@ -92,14 +106,18 @@ footer {
 @media (max-width: 1200px) {
     footer {
         padding: 70px 40px;
+
         .container .footer-content-block {
             display: unset;
+
             .footer-left-side {
                 margin-right: unset;
                 margin-bottom: 30px;
             }
+
             .footer-right-side {
                 padding-top: 0;
+
                 .footer-right-side-contact .footer-right-side-social-links {
                     margin-bottom: unset;
                 }
@@ -107,28 +125,35 @@ footer {
         }
     }
 }
+
 @media (max-width: 580px) {
     footer {
         padding: 50px 20px;
+
         .container .footer-content-block .footer-left-side .footer-left-side-text1 {
             font-size: 30px;
             line-height: 45px;
         }
+
         .container .footer-content-block .footer-left-side .footer-left-side-text2 {
             font-size: 30px;
             line-height: 40px;
         }
+
         .container .footer-content-block .footer-left-side .footer-left-side-text3-first {
             font-size: 30px;
             line-height: 35px;
         }
+
         .container .footer-content-block .footer-right-side .footer-right-side-contact {
             font-size: 21px;
             line-height: 28px;
         }
+
         .container .footer-content-block .footer-right-side .footer-right-side-social-links .footer-right-side-social-links-card {
             width: 45px;
             height: 45px;
+            
             i {
                 font-size: 30px;
             }

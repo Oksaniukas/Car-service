@@ -1,10 +1,12 @@
 .sixth-section {
     padding: 170px 30px 140px 30px;
+
     .container .sixth-section-content-block {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
         h4 {
             font-weight: 500;
             font-size: 46px;
@@ -13,18 +15,22 @@
             text-transform: capitalize;
             margin-bottom: 88px;
         }
+
         .sixth-section-card-list {
             display: grid;
             grid-gap: 25px;
             grid-template-columns: repeat(4, 268px);
+
             .sixth-section-card {
                 border: 1px solid rgba(33, 53, 70, 0.4);
                 padding: 50px 30px 39px 30px;
+
                 .sixth-section-card-image-block {
                     display: flex;
                     height: 120px;
                     margin-bottom: 20px;
                     justify-content: space-between;
+
                     .sixth-section-card-number {
                         font-weight: 400;
                         font-size: 32px;
@@ -33,6 +39,7 @@
                         color: #E5E5E5;
                     }
                 }
+
                 .sixth-section-card-text {
                     font-weight: 400;
                     font-size: 28px;
@@ -42,6 +49,7 @@
                     margin-right: 10px;
                     height: 60px;
                 }
+
                 .sixth-section-button {
                     padding: 10px 40px;
                     background: #F5F5F5;
@@ -49,6 +57,7 @@
                     border-radius: 10px;
                     cursor: pointer;
                     transition: all 0.3s ease 0s;
+
                     &-text {
                         font-family: 'Roboto';
                         font-style: normal;
@@ -61,12 +70,15 @@
                         color: #1F1F1F;
                     }
                 }
+
                 .sixth-section-button:hover {
                     background-color: #E9E743;
                 }
+
                 .sixth-section-card-image {
                     max-width: 130px;
                     overflow: hidden;
+
                     img{
                         width: 100%;
                     }
@@ -75,6 +87,7 @@
         }
     }
 }
+
 @media (max-width: 1200px) {
     .sixth-section .container .sixth-section-content-block .sixth-section-card-list {
         grid-template-columns: repeat(3, 268px);
@@ -85,15 +98,16 @@
     .sixth-section {
         padding-top: 100px;
     }
+
     .sixth-section .container .sixth-section-content-block .sixth-section-card-list {
         grid-template-columns: repeat(2, 268px);
     }
-    
 }
 
 @media (max-width: 720px) {
     .sixth-section {
         padding-top: 50px;
+
         .container .sixth-section-content-block h4 {
             margin-bottom: 50px;
         }
@@ -110,6 +124,7 @@
     .sixth-section  {
         padding-bottom: 50px;
     }
+    
     .sixth-section .sixth-section-content-block .container h4 {
         font-size: 40px;
         line-height: 50px;

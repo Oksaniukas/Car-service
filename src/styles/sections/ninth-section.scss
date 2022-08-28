@@ -2,6 +2,7 @@
     padding: 100px 0 78px 0;
     background: #F0F2F4;
     .container  {
+
         h4 {
             font-weight: 500;
             font-size: 46px;
@@ -10,9 +11,11 @@
             text-transform: capitalize;
             margin-bottom: 100px;
         }
+
         .ninth-section-card-block {
             margin-bottom: 79px;
         }
+
         .ninth-section-card-list {
             display: grid;
             grid-gap: 21px;
@@ -23,6 +26,7 @@
                 padding: 40px 10px 10px 30px;
                 background: #FFFFFF;
                 max-width: 277px;
+
                 .ninth-section-card-number {
                     font-weight: 400;
                     font-size: 81.5484px;
@@ -30,6 +34,7 @@
                     color: #E5E5E5;
                     margin-bottom: 60px;
                 }
+
                 .ninth-section-card-text {
                     font-weight: 400;
                     font-size: 24px;
@@ -37,6 +42,7 @@
                     max-width: 230px;
                 }
             }
+
             .ninth-section-card-button-block {
                 padding: 120px 39px 0 39px; 
                 background: #FFFFFF;
@@ -44,6 +50,7 @@
                 grid-column-end: 5;
                 grid-row-start: 1;
                 grid-row-end: 3;
+
                 h2 {
                     font-weight: 700;
                     font-size: 46px;
@@ -52,6 +59,7 @@
                     text-transform: capitalize;
                     margin-bottom: 18px;
                 }
+
                 .ninth-section-card-button-block-text {
                     font-weight: 400;
                     font-size: 36px;
@@ -60,6 +68,7 @@
                     text-transform: capitalize;
                     margin-bottom: 60px;
                 }
+
                 .ninth-section-card-button-block-button1 {
                     background: #F5F5F5;
                     border: 1.6px solid #000000;
@@ -67,6 +76,7 @@
                     height: 114px;
                     margin-bottom: 44px;
                 }
+
                 .ninth-section-card-button-block-button2 {
                     background: #F5F5F5;
                     border: 2px solid #E9E743;
@@ -76,6 +86,7 @@
                     justify-content: center;
                     cursor: pointer;
                     transition: all 0.3s ease 0s;
+
                     .ninth-section-card-button-block-button2-text {
                         font-family: 'Roboto';
                         font-style: normal;
@@ -87,6 +98,7 @@
                         margin-right: 18px;
                     }
                 }
+
                 .ninth-section-card-button-block-button2:hover {
                     background-color: #E9E743;
                 }
@@ -102,6 +114,7 @@
             margin: 0 auto;
             cursor: pointer;
             transition: all 0.3s ease 0s;
+
             .back-to-top-text {
                 font-family: 'Roboto';
                 font-style: normal;
@@ -111,10 +124,10 @@
                 text-align: center;
             }
         }
+
         .back-to-top:hover {
             background-color: #E9E743;
         }
-
     }
 }
 
@@ -131,6 +144,7 @@
         grid-template-rows: repeat(4, 335px);
 
     }
+
     .ninth-section .container .ninth-section-card-list .ninth-section-card {
         max-width: 100%;
     }
@@ -146,35 +160,42 @@
 @media (max-width: 530px) {
     .ninth-section {
         padding: 70px 20px 78px 20px;
-        .container 
-        h4 {
+
+        .container h4 {
             margin-bottom: 70px;
         }
+
         .ninth-section-card-block .ninth-section-card-list {
             place-content: center;
             grid-template-columns: repeat(1, 300px);
             grid-template-rows: repeat(6, 335px);
+
             .ninth-section-card-button-block {
                 padding: 70px 20px 0 20px;
                 grid-column-start: 1;
                 grid-column-end: 2;
                 grid-row-start: 5;
                 grid-row-end: 7;
+
                 h2 {
                     font-size: 40px;
                     line-height: 50px;
                 }
+
                 .ninth-section-card-button-block-text {
                     font-size: 36px;
                     line-height: 44px;
                 }
+
                 .ninth-section-card-button-block-button1 {
                     height: 100px;
                 }
+
                 .ninth-section-card-button-block-button2 .ninth-section-card-button-block-button2-text {
                     font-size: 25px;
                     line-height: 35px;
                 }
+                
                 .ninth-section-card-button-block-button2 img {
                     width: 15%;
                 }
